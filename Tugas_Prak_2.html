@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="info.html" method="get">
+    <label>NIM : <input type="text" name="nim" id="nim"></label><br>
+    <label>Nama : <input type="text" name="nama" id="nama"></label><br>
+    <label>Tgl Lahir (dd-mm-yyyy) : <input type="date" name="tgl_lahir" id="tgl_lahir"></label><br>
+    <label>Jenis Kelamin : <input type="radio" name="gender" value="male"> Laki-laki
+    <input type="radio" name="gender" value="female"> Perempuan</label><br>
+    <label>Alamat : <textarea name="alamat" rows="4" cols="50">Masukkan Alamat Anda</textarea></label><br>
+    <label>Tinggal di : <select name="tinggal" id="tinggal">
+        <option value="kos">--pilih--</option>
+        <option value="kos">Kos/kontrakan</option>
+        <option value="rumah">Rumah saudara</option>
+        <option value="asrama">Rumah orang tua</option>
+    </select></label><br>
+    <label style="margin-bottom: 10px;">Pilih 2 Hobi yang paling disukai :<br>
+        <input type="checkbox" name="hobi" value="membaca"> Science<br>
+        <input type="checkbox" name="hobi" value="olahraga"> Technology<br>
+        <input type="checkbox" name="hobi" value="musik"> Art<br>
+        <input type="checkbox" name="hobi" value="traveling"> Sport<br>
+    </label><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

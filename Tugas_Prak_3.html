@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="info.html" method="get">
+    <h1 style="text-align: center;">Form Data Mahasiswa</h1>
+    <hr style="border: 1px solid black; width: 80%; margin: auto; margin-bottom: 20px;">
+    <hr style="border: 1px solid black; width: 80%; margin: auto; margin-bottom: 20px;">
+
+    <label>Nama anda: <input type="text" name="nama" id="nama"></label><br>
+    <label>Jenis Kelamin : <input type="radio" name="gender" value="male"> Pria
+    <input type="radio" name="gender" value="female"> Wanita</label><br>
+    <label>Hoby : <br>
+        <div style="margin-left: 20px;">
+        <input type="checkbox" name="hobi" value="musik">Musik<br>
+        <input type="checkbox" name="hobi" value="jalan"> jalan<br>
+        <input type="checkbox" name="hobi" value="baca"> baca<br>
+        </div></label><br>
+
+    <label>Agama : <select name="agama" id="agama">
+        <option value="islam">Islam</option>
+        <option value="kristen">Kristen</option>
+        <option value="katolik">Katolik</option>
+        <option value="hindu">Hindu</option>
+        <option value="buddha">Buddha</option>
+    </select></label><br>
+    </label>
+
+    <label>Asal Sekolah: <input type="text" name="asal_sekolah" id="asal_sekolah"></label><br>
+    <label>Keterangan: <textarea name="keterangan" id="keterangan"></textarea></label>
+    
+    <div style="margin-top: 20px;">
+    <button type="submit">Kirim</button>
+    <button type="reset">Reset</button>
+    </div><br>
+
+    <hr style="border: 1px solid black; width: 100%; margin: auto; margin-bottom: 20px;">
+    <hr style="border: 1px solid black; width: 100%; margin: auto; margin-bottom: 20px;">
+    </form>
+</body>
+</html>

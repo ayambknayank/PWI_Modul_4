@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+<body>
+    <!-- SAMPLE FORM -->
+    <h1>Sample Form</h1>
+    <hr style="border: 1px solid black; width: 80%; margin: auto; margin-bottom: 20px;">
+    <form action="info.html" method="get">
+        <label>Nama : <input type="text" name="nim" id="nim"><label><br>
+        <!-- <label>NIM : <input type="text" name="nama" id="nama"><label><br> -->
+        <label>Hobby : <input type="text" name="nama" id="nama"><label><br>
+        
+        <button type="submit">Kirim</button>
+        <button type="reset">Clear</button><br>
+
+        
+        <!-- <br><label>Tgl Lahir : <input type="date" name="tgl_lahir" id="tgl_lahir"><label><br>
+        <label>Jenis Kelamin : <input type="radio" name="gender" value="male"> Laki-laki
+        <input type="radio" name="gender" value="female"> Perempuan<label><br> -->
+        <br><label>Catatan : <textarea name="alamat" rows="4" cols="50">Menurut Saya : </textarea><label>
+        <!-- <label>Tinggal di : <select name="tinggal" id="tinggal">
+            <option value="kos">Kos</option>
+            <option value="rumah">Rumah</option>
+            <option value="asrama">Asrama</option>
+        </select><label><br> -->
+        <label style="margin-bottom: 10px;">Sayur Kesukaan Anda : <br> 
+        <input type="checkbox" name="hobi1" value="Membaca"> Membaca<br>
+        <input type="checkbox" name="hobi2" value="Menulis"> Menulis<br>
+        <input type="checkbox" name="hobi3" value="Olahraga"> Olahraga<br><label>
+
+        <label>Makanan yang paing anda suka : </label><br>
+        <select name="makan" id="makan">
+            <option value="sate">Sate</option>
+            <option value="soto">Soto</option>
+            <option value="martabak">Martabak</option>
+            <option value="lain">Lain lain</option>
+        </select><label><br><br>
+    </form>
+</body>
+</html>
